@@ -21,5 +21,13 @@ public class C01_TestNGIlkTest {
 
         Driver.closeDriver();
 
+
+    }
+    @Test
+    public void test02(){
+        Driver.getDriver().get("https://youtube.com");
+        System.out.println(Driver.getDriver().getCurrentUrl());
+        Driver.closeDriver();
+
     }
 }
