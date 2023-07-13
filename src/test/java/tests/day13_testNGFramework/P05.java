@@ -43,6 +43,10 @@ public class P05 {
     public void teardownMethod() {
         System.out.println("After Method calisti");
     }
+@BeforeGroups
+public void groputest01(){
+    System.out.println("group test calistı");
+}
 
     @Test
     public void test01() {

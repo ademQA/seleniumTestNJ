@@ -28,6 +28,7 @@ public class P07 {
 
         //5- Basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(p06QdPage.email.isDisplayed());
+
         Driver.closeDriver();
     }
 }

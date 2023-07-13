@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
     natural order'a bakar
  */
 public class C02_Priority {
-    @Test
+    @Test(groups ={ "smoke","regresion"})
     public void amazonTest(){
         System.out.println("Amazon");
     }

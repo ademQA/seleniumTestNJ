@@ -7,7 +7,7 @@ import utilities.Driver;
 
 public class C06_QDLoginTest {
 
-    @Test
+    @Test(groups = {"smoke","mini regression1"})
     public void test01(){
         //1- https://www.qualitydemy.com/ anasayfasina gidin
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));
